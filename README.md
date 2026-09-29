@@ -30,7 +30,8 @@ completes.
 
 ### 2. Distribution of Failed Orders by Hour
 
-![Failed orders by hour](images/hourly_failures.png)
+![Failed orders by hour](images/hourly_failures1.png)
+![Failed orders by hour](images/hourly_failures2.png)
 
 Failures peak sharply at **8 AM (1,082 orders, ~10% of all failures)**,
 well above the next-highest hours (21:00 with 846 and 23:00 with 836).
@@ -44,7 +45,7 @@ consistent with low overall demand overnight.
 
 ### 3. Average Time to Cancellation, With and Without a Driver
 
-<!-- ![Median cancellation time by hour](images/cancellation_time.png) -->
+![Median cancellation time by hour](images/cancellation_time.png)
 
 Across nearly every hour of the day, the **median** cancellation time
 is longer once a driver has been assigned (e.g., 200.5s at midnight vs.
@@ -57,8 +58,7 @@ the influence of extreme outliers, as suggested in the task.
 ---
 
 ### 4. Average ETA by Hour
-
-<!-- ![Median ETA by hour](images/eta_by_hour.png) -->
+![Median ETA by hour](images/eta_by_hour.png)
 
 Median ETA peaks during the morning rush hour, reaching **658 seconds
 at 8 AM** and 584.5 seconds at 7 AM — more than double the overnight
